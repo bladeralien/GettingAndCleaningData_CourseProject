@@ -1,70 +1,72 @@
 The final dataset containing following columns.
-subjectID
-activity
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyAccMagMean
-tGravityAccMagMean
-tBodyAccJerkMagMean
-tBodyGyroMagMean
-tBodyGyroJerkMagMean
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyAccMagMean
-fBodyBodyAccJerkMagMean
-fBodyBodyGyroMagMean
-fBodyBodyGyroJerkMagMean
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagStd
-tGravityAccMagStd
-tBodyAccJerkMagStd
-tBodyGyroMagStd
-tBodyGyroJerkMagStd
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagStd
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagStd
-Among these, "subjectID" is from file "train/subject_train.txt" and "test/subject_test.txt". "acivity" is from file "train/y_train.txt" and "test/y_test.txt" and replace IDs with labels from file "activity_labels.txt". The others are names from file "features.txt" with minor foramt.
+
+- subjectID
+- activity
+- tBodyAccMeanX
+- tBodyAccMeanY
+- tBodyAccMeanZ
+- tGravityAccMeanX
+- tGravityAccMeanY
+- tGravityAccMeanZ
+- tBodyAccJerkMeanX
+- tBodyAccJerkMeanY
+- tBodyAccJerkMeanZ
+- tBodyGyroMeanX
+- tBodyGyroMeanY
+- tBodyGyroMeanZ
+- tBodyGyroJerkMeanX
+- tBodyGyroJerkMeanY
+- tBodyGyroJerkMeanZ
+- tBodyAccMagMean
+- tGravityAccMagMean
+- tBodyAccJerkMagMean
+- tBodyGyroMagMean
+- tBodyGyroJerkMagMean
+- fBodyAccMeanX
+- fBodyAccMeanY
+- fBodyAccMeanZ
+- fBodyAccJerkMeanX
+- fBodyAccJerkMeanY
+- fBodyAccJerkMeanZ
+- fBodyGyroMeanX
+- fBodyGyroMeanY
+- fBodyGyroMeanZ
+- fBodyAccMagMean
+- fBodyBodyAccJerkMagMean
+- fBodyBodyGyroMagMean
+- fBodyBodyGyroJerkMagMean
+- tBodyAccStdX
+- tBodyAccStdY
+- tBodyAccStdZ
+- tGravityAccStdX
+- tGravityAccStdY
+- tGravityAccStdZ
+- tBodyAccJerkStdX
+- tBodyAccJerkStdY
+- tBodyAccJerkStdZ
+- tBodyGyroStdX
+- tBodyGyroStdY
+- tBodyGyroStdZ
+- tBodyGyroJerkStdX
+- tBodyGyroJerkStdY
+- tBodyGyroJerkStdZ
+- tBodyAccMagStd
+- tGravityAccMagStd
+- tBodyAccJerkMagStd
+- tBodyGyroMagStd
+- tBodyGyroJerkMagStd
+- fBodyAccStdX
+- fBodyAccStdY
+- fBodyAccStdZ
+- fBodyAccJerkStdX
+- fBodyAccJerkStdY
+- fBodyAccJerkStdZ
+- fBodyGyroStdX
+- fBodyGyroStdY
+- fBodyGyroStdZ
+- fBodyAccMagStd
+- fBodyBodyAccJerkMagStd
+- fBodyBodyGyroMagStd
+- fBodyBodyGyroJerkMagStd
+
+Among these, "subjectID" is from file "train/subject_train.txt" and "test/subject_test.txt". "acivity" is from file "train/y_train.txt" and "test/y_test.txt" and replace IDs with labels from file "activity_labels.txt". The others are names from file "features.txt" with minor foramt, its value is in the corresponding column in file "train/X_train.txt" and "test/X_test.txt".
